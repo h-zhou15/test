@@ -6,8 +6,8 @@
 #include <cmath>
 #include <vector>
 #include <complex>
-typedef std::complex<double> complex_t;
 using namespace std;
+typedef complex<double> complex_t;
 
 int bitlen(int);
 void DFT(vector<double> &x_n, vector<complex_t> &X_k);
@@ -18,7 +18,5 @@ void IFFT(vector<complex_t> &x_n);
 void resort(vector<complex_t> &x_n, int N);
 int reverse_bit(int n, int len);
 complex_t W(int k, int n, int N);
-
-
 
 #endif

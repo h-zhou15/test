@@ -1,5 +1,5 @@
-﻿  FT.cpp
-c:\users\hao\source\repos\fbp\fbp\ft.cpp(21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-c:\users\hao\source\repos\fbp\fbp\ft.cpp(38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-c:\users\hao\source\repos\fbp\fbp\ft.cpp(84): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+﻿  FBP.cpp
+  Projection.cpp
+c:\users\hao\source\repos\fbp\fbp\projection.cpp(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
   FBP.vcxproj -> C:\Users\hao\source\repos\FBP\x64\Debug\FBP.exe

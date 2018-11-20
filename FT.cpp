@@ -1,4 +1,5 @@
 
+
 #include "pch.h"
 #include <iostream>
 #include <complex>
@@ -7,13 +8,16 @@
 #include "FT.h"
 #define eps 1e-6 
 #define PI 3.14159265354
-typedef std::complex<double> complex_t;
+
 using namespace std;
+
 
 //旋转因子的计算 
 complex_t W(int k, int n, int N) {
 	return complex_t(cos(2 * PI*k*n / N), -sin(2 * PI*k*n / N));
 }
+
+
 
 //格式化 零 
 /*complex_t format(complex_t &c) {
